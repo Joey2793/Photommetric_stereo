@@ -29,7 +29,18 @@ Vb = (x, y+1, zx,y+1) – (x,y,zx,y)      0 = N · Vb      Zx,y+1 – Zx,y = -ny
 
 <h2>Result</h2>
 <p>
-![apple_albedo](https://github.com/Joey2793/Photommetric_stereo/blob/master/img/apple_albedo.png)
-![apple_depth](https://github.com/Joey2793/Photommetric_stereo/blob/master/img/apple_depth.png)
-![apple_normal](https://github.com/Joey2793/Photommetric_stereo/blob/master/img/apple_normal.png)
+<img src="https://github.com/Joey2793/Photommetric_stereo/blob/master/img/apple_albedo.png"/>
+<img src ="https://github.com/Joey2793/Photommetric_stereo/blob/master/img/apple_depth.png"/>
+<img src ="https://github.com/Joey2793/Photommetric_stereo/blob/master/img/apple_normal.png"/>
+<img src ="https://github.com/Joey2793/Photommetric_stereo/blob/master/img/apple_re_render.png"/>
+</p>
+
+<h2>How to use</h2>
+<p>pfmio.py   #Read .pbm format image into python</br>
+main.py    #Get different image results and core algorithm</br>
+Light_Direction.py    #Calculate light direction</br>
+Run Light_Direction.py light_dir_ints(filefolder) # such as ‘Apple’ </br>
+#it will calculate light direction result into light_dir_output.txt under that filefolder </br>
+Run main.py show_map(filefolder) </br>
+#it will show the four image result for one set of given image </br>
 </p>
