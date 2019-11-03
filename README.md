@@ -36,7 +36,7 @@ Vb = (x, y+1, zx,y+1) – (x,y,zx,y)      0 = N · Vb      Zx,y+1 – Zx,y = -ny
 </p>
 
 <h2>How to use</h2>
-<p>pfmio.py   #Read .pbm format image into python</br>
+<p>pfmio.py   #Read .pbm format image into python (find online)</br> 
 main.py    #Get different image results and core algorithm</br>
 Light_Direction.py    #Calculate light direction</br>
 Run Light_Direction.py light_dir_ints(filefolder) # such as ‘Apple’ </br>
